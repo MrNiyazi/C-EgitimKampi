@@ -45,6 +45,16 @@ namespace _02_Variables
 
             Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
                 "-Gramaj:" + appleGram + "-Toplam Tutar:" +appletotalPrice);
+            Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
+                "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
+            Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
+                "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
+            Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
+                "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
+            Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
+                "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
+            Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
+                "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
 
 
             Console.WriteLine("Toplam Fiyat:" + totalPrice);
