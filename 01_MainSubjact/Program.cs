@@ -10,7 +10,7 @@ namespace _01_MainSubjact
 	{
 		static void Main(string[] args)
 		{
-
+			
 			#region YazdırmaKomutları
 			//Console.WriteLine("Merhaba Dünya ");
 			//Console.Write("Selam");
