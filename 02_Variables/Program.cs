@@ -17,47 +17,56 @@ namespace _02_Variables
 
             //Console.WriteLine(number);
 
-            Console.WriteLine("***** Fiyat Listesi ****");
-            double applePrice, orongePrice, strawberryPrice, poatoPrice, tomatoPrice;
+            //Console.WriteLine("***** Fiyat Listesi ****");
+            //double applePrice, orongePrice, strawberryPrice, poatoPrice, tomatoPrice;
 
-            applePrice = 14.85;
-            orongePrice = 20.95;
-            strawberryPrice = 45;
-            poatoPrice = 9.74;
-            tomatoPrice = 6.88;
+            //applePrice = 14.85;
+            //orongePrice = 20.95;
+            //strawberryPrice = 45;
+            //poatoPrice = 9.74;
+            //tomatoPrice = 6.88;
 
-            Console.WriteLine("---- Elma Birim Fiyatı:" + applePrice);
-            Console.WriteLine("---- Portakal Birim Fiyatı:" + orongePrice);
-            Console.WriteLine("---- Çilek Birim Fiyatı:" + strawberryPrice);
-            Console.WriteLine("---- Patates Birim Fiyatı:" + poatoPrice);
-            Console.WriteLine("---- Domates Birim Fiyatı:" + tomatoPrice);
-            
-            double appleGram, orangeGram, strawberryGram, poatoGram,tomatoGram;
+            //Console.WriteLine("---- Elma Birim Fiyatı:" + applePrice);
+            //Console.WriteLine("---- Portakal Birim Fiyatı:" + orongePrice);
+            //Console.WriteLine("---- Çilek Birim Fiyatı:" + strawberryPrice);
+            //Console.WriteLine("---- Patates Birim Fiyatı:" + poatoPrice);
+            //Console.WriteLine("---- Domates Birim Fiyatı:" + tomatoPrice);
 
-            appleGram = 1.245;
-            orangeGram = 2.650;
-            strawberryGram = 0.750;
-            poatoGram = 4.859;
-            tomatoGram = 3.745;
+            //double appleGram, orangeGram, strawberryGram, poatoGram, tomatoGram;
 
-            double totalPrice = (applePrice * appleGram) + (orangeGram * orongePrice) + (strawberryGram * strawberryPrice) + (poatoGram * poatoPrice) + (tomatoPrice * tomatoGram);
-            double appletotalPrice = (applePrice * appleGram);
+            //appleGram = 1.245;
+            //orangeGram = 2.650;
+            //strawberryGram = 0.750;
+            //poatoGram = 4.859;
+            //tomatoGram = 3.745;
 
-            Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
-                "-Gramaj:" + appleGram + "-Toplam Tutar:" +appletotalPrice);
-            Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
-                "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
-            Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
-                "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
-            Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
-                "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
-            Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
-                "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
-            Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
-                "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
+            //double totalPrice = (applePrice * appleGram) + (orangeGram * orongePrice) + (strawberryGram * strawberryPrice) + (poatoGram * poatoPrice) + (tomatoPrice * tomatoGram);
+            //double appletotalPrice = (applePrice * appleGram);
+
+            //Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
+            //    "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
+            //Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
+            //    "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
+            //Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
+            //    "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
+            //Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
+            //    "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
+            //Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
+            //    "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
+            //Console.WriteLine("Alınan Ürün:Elma - " + "Birim Fiyat: " + applePrice +
+            //    "-Gramaj:" + appleGram + "-Toplam Tutar:" + appletotalPrice);
 
 
-            Console.WriteLine("Toplam Fiyat:" + totalPrice);
+            //Console.WriteLine("Toplam Fiyat:" + totalPrice);
+
+            #endregion
+
+            #region char değişkenler
+
+            char symbol;
+            symbol = 'a';
+
+            Console.WriteLine(symbol);
 
             #endregion
 
