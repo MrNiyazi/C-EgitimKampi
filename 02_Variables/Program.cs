@@ -72,25 +72,74 @@ namespace _02_Variables
 
             #region Klavyeden veri girişi
 
-            Console.WriteLine("**** CSharp Hava Yolları Yolcu Sayısı ****");
-            Console.WriteLine();
+            //Console.WriteLine("**** CSharp Hava Yolları Yolcu Sayısı ****");
+            //Console.WriteLine();
 
-            string passengerName, passengerSurname, passengerDistrict, passengerCity, passengerAge, passengerIdentityNumber;
-            Console.Write("Yolcu Adı:");
-            passengerName = Console.ReadLine();
-            Console.Write("Yolcu Soyadı:");
-            passengerSurname = Console.ReadLine();
-            Console.Write("Yolcu İlçe:");
-            passengerDistrict = Console.ReadLine();
-            Console.Write("Yolcu Şehir:");
-            passengerCity = Console.ReadLine();
-            Console.Write("Yolcu Yaşı:");
-            passengerAge = Console.ReadLine();
-            Console.Write("Yolcu Numarası:");
-            passengerIdentityNumber = Console.ReadLine();
+            //string passengerName, passengerSurname, passengerDistrict, passengerCity, passengerAge, passengerIdentityNumber;
+            //Console.Write("Yolcu Adı:");
+            //passengerName = Console.ReadLine();
+            //Console.Write("Yolcu Soyadı:");
+            //passengerSurname = Console.ReadLine();
+            //Console.Write("Yolcu İlçe:");
+            //passengerDistrict = Console.ReadLine();
+            //Console.Write("Yolcu Şehir:");
+            //passengerCity = Console.ReadLine();
+            //Console.Write("Yolcu Yaşı:");
+            //passengerAge = Console.ReadLine();
+            //Console.Write("Yolcu Numarası:");
+            //passengerIdentityNumber = Console.ReadLine();
 
-            Console.WriteLine("--------------------------------------");
-            Console.WriteLine(passengerName + " " + passengerSurname + " " + passengerDistrict + "/" +passengerCity + " " + passengerAge + " " + passengerIdentityNumber );
+            //Console.WriteLine("--------------------------------------");
+            //Console.WriteLine(passengerName + " " + passengerSurname + " " + passengerDistrict + "/" +passengerCity + " " + passengerAge + " " + passengerIdentityNumber );
+            #endregion
+
+            #region Klavyeden Tam Sayı Girişleri ve Dönüşümleri
+            //int shoesPrice, computerPrice, chaairPrice, tvPrice;
+
+            //shoesPrice = 1000;
+            //computerPrice = 2000;
+            //chaairPrice = 5000;
+            //tvPrice = 12000;
+
+            //int shoesCount, computerCount, chaairCount, tvCount;
+
+            //Console.Write("Lütfen aldığınız ayakkabı sayısını giriniz:");
+            //shoesCount = int.Parse(Console.ReadLine());
+            //Console.Write("Lütfen aldığınız bilgisayar sayısını giriniz:");
+            //computerCount = int.Parse(Console.ReadLine());
+            //Console.Write("Lütfen aldığınız sandalye sayısını giriniz:");
+            //chaairCount = int.Parse(Console.ReadLine());
+            //Console.Write("Lütfen aldığınız televizyon sayısını giriniz:");
+            //tvCount = int.Parse(Console.ReadLine());
+            //int totalPrice = shoesPrice * shoesCount + computerPrice * computerCount + chaairPrice * chaairCount + tvPrice * tvCount;
+            //Console.WriteLine("toplam fiyat:"+totalPrice);
+
+            #endregion
+
+            #region Klavyeden Ondalıklı Sayı İşlemleri
+            //double exam1, exam2, exam3;
+            //Console.Write("1. Sınav notunu giriniz:");
+            //exam1= double.Parse(Console.ReadLine());
+            //Console.Write("2.Sınav notunu giriniz:");
+            //exam2 = double.Parse(Console.ReadLine());
+            //Console.Write("3.Sınav notunu giriniz:");
+            //exam3 = double.Parse(Console.ReadLine());
+
+            //double ort= (exam1 + exam2 + exam3)/3;
+
+            //Console.WriteLine("");
+            //Console.WriteLine("Ortalamanız:" + ort);
+            #endregion
+
+            #region Klavyeden Karakte Girişleri
+
+
+            
+            //char gender;
+            //Console.Write("Lütfen cinsiyet seçiniz:");
+            //gender = char.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Seçtiğiniz cinsiyet:" + gender);
             #endregion
 
 
